@@ -22,6 +22,7 @@ public class Song {
     @ElementCollection
     private List<String> comments;
 
+
     public Song(String songName, String duration, Album album, String imageUrl) {
         this.songName = songName;
         this.duration = duration;
